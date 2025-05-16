@@ -18,4 +18,4 @@ spec:
       - name: helloworld-container
         image: gautadas/javamavenwebapp:v1.0.0 # Replace with your Docker image name and tag (e.g., nginx:latest)
         ports:
-        - containerPort: 80 # Replace with the port your application inside the container listens on
+        - containerPort: 8080 # Replace with the port your application inside the container listens on
